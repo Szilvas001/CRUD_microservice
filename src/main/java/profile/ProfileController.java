@@ -1,11 +1,15 @@
 package profile;
 
 import java.util.List;
-
+import java.util.UUID; // Ez hiányzott
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+// Ezek hiányoztak
+import your.package.Student;
+import your.package.ProfileService;
 
 @RestController
 @RequestMapping("/profiles")
@@ -38,5 +42,3 @@ public class ProfileController {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 }
-
-
