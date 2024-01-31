@@ -6,6 +6,10 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.UUID;
 
+// Ezek hiányoztak
+import your.package.Student;
+import your.package.StudentRepository;
+
 @Service
 public class ProfileService {
 
@@ -30,4 +34,3 @@ public class ProfileService {
         studentRepository.deleteById(id);
     }
 }
-
