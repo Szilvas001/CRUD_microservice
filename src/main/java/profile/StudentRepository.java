@@ -5,8 +5,10 @@ import org.springframework.stereotype.Repository;
 
 import java.util.UUID;
 
+// Ez hiányzott
+import your.package.Student;
+
 @Repository
 public interface StudentRepository extends JpaRepository<Student, UUID> {
 }
-
 
